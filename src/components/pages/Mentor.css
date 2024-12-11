@@ -1,0 +1,48 @@
+.main{
+  padding: 20px;
+}
+
+.mentor-page {
+    padding: 20px;
+  }
+  
+  .mentor-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .mentor-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .mentor-card {
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .mentor-card h3 {
+    margin-top: 0;
+  }
+  
+  .mentor-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mentor-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .withdraw-btn {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
