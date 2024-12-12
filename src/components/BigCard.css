@@ -1,109 +1,85 @@
-.mentors-page {
-    gap: 1rem; 
-    justify-content: space-around;
-    background-color: #f7f7f7;
-  }
-  
-.topbar{
-    display: flex;
-    justify-content: space-between; 
-    margin: 10px;
-    border-bottom: 2px solid #dadada;
+.main{
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 2px solid #413f3f; 
+}
+
+.title{
+  color: #030080;
 }
 
 .req_btn {
-  background: #030080;
+  background: white;
   width: 109px;
-  height: 32px; 
-  color: white;
-  align-items: center;
+  height: 32px;
+  margin-bottom: 10px;
+  color: #030080;
   font-size: 12px;
   border-radius: 22px;
   text-align: center;
 }
+
+.mentor-card {
   
-  .big-card {
-    height: 700px;
-    max-width: 30%;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 700px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border-color 0.3s;
+  position: relative;
 }
 
-  
-  .big-card h2 {
-    margin-bottom: 1rem;
-    font-size: 18px;
-    color: #333;
-  }
-  
-  .mentors-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .mentor-card {
-    padding: 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #f9f9f9;
-    transition: background-color 0.3s, border-color 0.3s;
-  }
-  
-  .mentor-card:hover {
-    background-color: #f0f0f0;
-    border-color: #007bff;
-  }
-  
-  .mentor-card.selected {
-    border-color: #007bff;
-    background-color: #e7f3ff;
-  }
-  
-  .withdraw-request {
-    margin-top: 1rem;
-    padding: 1rem;
-    border: 1px solid #ffcccc;
-    background-color: #ffe6e6;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .withdraw-request p {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  .withdraw-request button {
-    margin-right: 0.5rem;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .withdraw-request button:first-of-type {
-    background-color: #ff4d4d;
-    color: #fff;
-  }
-  
-  .withdraw-request button:first-of-type:hover {
-    background-color: #e63939;
-  }
-  
-  .withdraw-request button:last-of-type {
-    background-color: #ddd;
-    color: #333;
-  }
-  
-  .withdraw-request button:last-of-type:hover {
-    background-color: #bbb;
-  }
-  
+.mentor-card:hover {
+  background-color: #f0f0f0;
+  border-color: #030080;
+}
+
+.mentor-card.expanded {
+  border-color: #030080;
+  background-color: #e7f3ff;
+  margin-bottom: 10px;
+}
+
+.m_name{
+
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.m_role{
+  font-size: 12px;
+  color: #030080;
+}
+
+.quater{
+  font-size: 12px;
+  color: #030080;
+  margin-bottom: 15px;
+}
+
+.withdraw-section {
+  margin-top: 10px;
+  border-top: 1px solid #a6a3a3;
+  text-align: center;
+}
+
+.withdraw-btn {
+  background: transparent;
+  color: #fe0101;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
