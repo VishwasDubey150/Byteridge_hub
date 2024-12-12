@@ -13,17 +13,42 @@
 
 .title{
   color: #030080;
+  padding-top: 5px;
 }
 
-.req_btn {
-  background: white;
-  width: 109px;
-  height: 32px;
-  margin-bottom: 10px;
+.left{
+  display: flex;
+  gap: 2px;
+}
+
+.btn1{
+  margin-bottom: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  border: transparent;
+}
+
+.right{
+ display: flex;
+ background-color: white;
+ padding-top: 8px;
+ padding-left: 15px;
+ padding-right: 18px;
+ border-radius: 20px;
+ gap: 10px;
+ margin-bottom: 15px;
+}
+
+.p_txt{
+  font-size: 20px;
   color: #030080;
-  font-size: 12px;
-  border-radius: 22px;
-  text-align: center;
+}
+
+.req_txt{
+  color: #030080;
 }
 
 .mentor-card {
@@ -60,7 +85,7 @@
 }
 
 .quater{
-  font-size: 12px;
+  font-size: 17px;
   color: #030080;
   margin-bottom: 15px;
 }

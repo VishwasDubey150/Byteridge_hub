@@ -3,12 +3,12 @@
   gap: 20px;
   justify-content: space-around;
   padding: 20px;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 .big-card {
   flex: 1;
-  height: 400px;
+  height: 450px;
   max-width: 30%;
   border: 2px solid #908f8f;
   border-radius: 8px; 

@@ -16,10 +16,20 @@ const BigCard = ({title, mentors, onWithdraw, color}) => {
   return (
     <div className="big-card">
       <div className="topbar" style={{ backgroundColor: color }}>
-        <h3 className="title">{title}</h3>
-        <button className="req_btn">Request</button>
-      </div>
 
+        <div className="left">
+          <h3 className="title">{title}</h3>
+          <button className="btn1">1</button>
+        </div>
+        
+        <div className="right">
+          <p className="p_txt">+</p>
+          <p className="req_txt">Request</p>
+        </div>
+
+     
+     
+      </div>
       <div className="main">
       <p className="quater">Current Quater(Q3):</p>
       <div className="mentors-list">
