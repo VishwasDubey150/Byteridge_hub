@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,16 +8,15 @@ function Navbar() {
       <div>
         <ul className="ul">
           <li>
-            <Link to="/mentors">MY MENTORS</Link>
+            <NavLink to="/mentors" className={({ isActive }) => (isActive ? "active-link" : "")}> MY MENTORS </NavLink>
           </li>
           <li>
-            <Link to="/mentees">MY MENTEES</Link>
+            <NavLink to="/mentees" className={({ isActive }) => (isActive ? "active-link" : "")}>  MY MENTEES </NavLink>
           </li>
         </ul>
       </div>
-      <div className="btns"> 
-        
-        <button className="year"> FY 24-25</button>
+      <div className="btns">
+        <button className="year">FY 24-25</button>
         <button className="q1">Q3</button>
         <button className="r_mentors">Retain Mentors</button>
       </div>
