@@ -6,7 +6,7 @@
   background-color: white;
 }
 
-.big-card {
+.container-card {
   flex: 1;
   height: 450px;
   max-width: 30%;

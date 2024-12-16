@@ -108,3 +108,9 @@
 }
 
 
+.pending-approval {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
